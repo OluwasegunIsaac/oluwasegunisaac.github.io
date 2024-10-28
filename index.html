@@ -1,0 +1,542 @@
+<!--
+Template for website from GitHub repo: https://github.com/AnilSeervi/DevFolio
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title>Daramola Oluwasegun Isaac | Portfolio</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[OluwasegunIsaac], [Daramola Oluwasegun Isaac], bioinformatics" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="Daramola Oluwasegun Isaac | Portfolio" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/pfp.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="#36d1dc" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="Daramola Oluwasegun Isaac | Portfolio" />
+    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
+    <meta property="og:description" content="Daramola Oluwasegun Isaac | Portfolio" />
+    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
+      so that a thumbnail image of your portfolio is shown while shared on other platform -->
+    <meta
+      property="og:image"
+      content="./assets/portfolio.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="Daramola Oluwasegun Isaac | Portfolio" />
+    <!-- Again fill content attr with the URL of this portfolio you'll host -->
+    <meta property="twitter:url" content="https://devfolio.js.org" />
+    <!-- Recommended to use the same text used within <title> element -->
+    <meta property="twitter:title" content="Daramola Oluwasegun Isaac | Portfolio" />
+    <!-- short description that shows up while your portfolio is shared -->
+    <meta
+      property="twitter:description"
+      content="Daramola Oluwasegun Isaac | Portfolio"
+    />
+    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
+    <meta
+      property="twitter:image"
+      content="./assets/portfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+    <!-- Remove Google Analytics once you have your portfolio website set-up -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag("js", new Date())
+
+      gtag("config", "UA-122228201-4")
+    </script>
+    <!-- End of Google Analytics -->
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hi, my name is <span class="text-color-main name">Daramola Oluwasegun Isaac</span>
+          <br />
+          I'm a Python Web Developer & Bioinformatician.
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+          
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/pfp_3.png"
+              alt="Profile Image"
+              width="450"
+              height="350"
+            />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              I am a bioinformatician, Streamlit dev and ML Scientist 
+              with 4 years of expertise in data analysis, visualization, 
+              Machine Learning, annotation, and modeling biological and 
+              non-biological datasets.
+            </p>
+            </p>
+            <h2 class="stack_list">Tech Stack</h2>
+            <p class="about-wrapper__info-text">
+              Python | Streamlit | Scikit-learn | Tensorflow | R | Git 
+              Nextflow | WDL | Cromwell | Docker | Bash | JASP | BLAST | MEGA | 
+              AlphaFold | FoldSeek | Transcriptomics | ...
+            </p>
+            </p>
+            <span class="about-wrapper__cta">
+              <a href="./assets/cv.pdf" class="cta-btn cta-btn--resume">View Resume</a> 
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Recent Python Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Identifying exogenous variables for forecasting a time series data</h3>
+              <p class="project-wrapper__text-info">
+                My role was to identify the best performing model to identify exogenous variables essential
+                for the accurate prediction in the forecast of the GRACE geographical groundwater thickness data.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/14.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="720"
+                    height="560"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+<!-- Each .row is a project -->
+<article class="row">
+  <div class="project-wrapper__text">
+    <h3 class="project-wrapper__text-title">Streamlit Multipage App - PANGEA</h3>
+    <p class="project-wrapper__text-info">
+      My role was to build a multipage webapp infrastructure that allows the 
+      functionalities of the project to be rendered (Explorative Data Analysis, Comparative Analysis, and Machine Learning).
+    </p>
+    <div class="project-wrapper__text-btns">
+      <a
+        href="https://pangea-amr.streamlit.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="cta-btn cta-btn--hero cta-btn--projects"
+        >See Live</a
+      >
+      <a href="https://github.com/OluwasegunIsaac/pangea" target="_blank" class="cta-btn text-color-main"
+        >Source Code</a
+      >
+    </div>
+  </div>
+
+  <div class="project-wrapper__image">
+    <a href="#" target="_blank" rel="noopener noreferrer">
+      <div class="thumbnail rounded">
+        <img
+          src="./assets/1.png"
+          class="img-fluid"
+          alt="Project Image"
+          width="720"
+          height="560"
+        />
+      </div>
+    </a>
+  </div>
+</article>
+<!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Car Sales App - Motor Market</h3>
+              <p class="project-wrapper__text-info">
+                My role was to build a webapp infrastructure to host a platform to put out used 
+                cars up for sale based on a backend estimation algorithm. App was deployed on AzureDB.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://democarjunkers.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/OluwasegunIsaac/carjunkers_demo" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/4.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Role Management Tracking App - ainigma </h3>
+              <p class="project-wrapper__text-info">
+                My role was to convert an excel management tracking sheet to a reactive dashboard for time-tracking and note-taking. 
+              </p>
+              <div class="project-wrapper__text-btns">
+                
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/7.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Streamlit Web App - GAIA </h3>
+              <p class="project-wrapper__text-info">
+                My role was to build the functional webapp infrastructure that allows 
+                the functionalities of the project to be rendered (Explorative Data Summary, 
+                Data Visualization, Predictive Analysis, and Machine Learning).
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://gaia-app.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="https://github.com/OluwasegunIsaac/gaia" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/2.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Recent Bioinformatics Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <p class="project-wrapper__text-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
+                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
+                sint saepe nostrum! Enim, perferendis.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Live</a
+                >
+                <a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Modeling the Effect of the COVID-19 Pandemic on Azithromycin</h3>
+              <p class="project-wrapper__text-info">
+                I created a time series model demonstrating the effect of the pandemic 
+                on Azithromycin prescription and use in the UK.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://pdxscholar.library.pdx.edu/altreu_projects/8/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Publication</a>
+                <a href="https://github.com/OluwasegunIsaac/altREU" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/13.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Cell morphology analysis of ∆spxA1 gene in Listeria monocytogenes</h3>
+              <p class="project-wrapper__text-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
+                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
+                sint saepe nostrum! Enim, perferendis.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://doi.org/10.1128/iai.00211-22"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >See Publication</a
+                >
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/wtContours.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">
+          <a href="mailto:oluwasegunisaacdaramola@gmail.com" class="cta-btn cta-btn--resume">Send a mail</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://twitter.com/BiomedIsaac"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="twitter"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a
+            href="www.linkedin.com/in/oluwasegun-isaac-daramola"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/OluwasegunIsaac"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="mailto:oluwasegunisaacdaramola@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="gmail"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+        <hr />
+        <p class="footer__text">
+          &copy; <span id="year"></span> - 
+          <a
+            href="https://github.com/OluwasegunIsaac"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Daramola Oluwasegun Isaac</a
+          >. <br />
+        </p>
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
